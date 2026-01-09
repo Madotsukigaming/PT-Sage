@@ -28,7 +28,7 @@ def create_all_regions(world: SAGEWorld) -> None:
     ancient_cheese = Region("Ancient Cheese", world.player, world.multiworld)
     bloodsauce_dungeon = Region("Bloodsauce Dungeon", world.player, world.multiworld)
     snick_challenge = Region("Snick's Challenge", world.player, world.multiworld)
-    hub_area = world.get_region("Snick Amateur Games Expo")
+    hub_area = Region("Snick Amateur Games Expo", world.player, world.multiworld)
 
     # Let's put all these regions in a list.
     regions = [pizzascape, ancient_cheese, bloodsauce_dungeon, snick_challenge, hub_area]

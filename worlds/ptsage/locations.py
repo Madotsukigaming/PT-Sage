@@ -100,18 +100,18 @@ def create_regular_locations(world: SAGEWorld) -> None:
     # For this, you need to have a dict of location names to their IDs (i.e. a subset of location_name_to_id)
     # Aha! So that's why we made that "get_location_names_with_ids" helper method earlier.
     # You also need to pass your overridden Location class.
-    pizzascape_locs = get_location_names_with_ids(["Pizzascape Complete", "Pizzascape S Rank", "Pizzascape Toppin (Mushroom)"
-    "Pizzascape Toppin (Cheese)", "Pizzascape Toppin (Tomato)", "Pizzascape Toppin (Sausage)" "Pizzascape Toppin (Pineapple)"
+    pizzascape_locs = get_location_names_with_ids(["Pizzascape Complete", "Pizzascape Toppin (Mushroom)",
+    "Pizzascape Toppin (Cheese)", "Pizzascape Toppin (Tomato)", "Pizzascape Toppin (Sausage)", "Pizzascape Toppin (Pineapple)",
     "Pizzascape Secret 1", "Pizzascape Secret 2", "Pizzascape Secret 3", "Pizzascape Secret 4", "Pizzascape Secret 5","Pizzascape Secret 6"])
     pizzascape.add_locations(pizzascape_locs, SAGELocation)
 
-    ancient_cheese_locs = get_location_names_with_ids(["Ancient Cheese Complete", "Ancient Cheese S Rank", "Ancient Cheese Toppin (Mushroom)"
-    "Ancient Cheese Toppin (Cheese)", "Ancient Cheese Toppin (Tomato)", "Ancient Cheese Toppin (Sausage)" "Ancient Cheese Toppin (Pineapple)"
+    ancient_cheese_locs = get_location_names_with_ids(["Ancient Cheese Complete", "Ancient Cheese Toppin (Mushroom)",
+    "Ancient Cheese Toppin (Cheese)", "Ancient Cheese Toppin (Tomato)", "Ancient Cheese Toppin (Sausage)", "Ancient Cheese Toppin (Pineapple)",
     "Ancient Cheese Secret 1", "Ancient Cheese Secret 2", "Ancient Cheese Secret 3", "Ancient Cheese Secret 4", "Ancient Cheese Secret 5","Ancient Cheese Secret 6"])
     ancient_cheese.add_locations(ancient_cheese_locs, SAGELocation)
 
-    bloodsauce_dungeon_locs = get_location_names_with_ids(["Bloodsauce Dungeon Complete", "Bloodsauce Dungeon S Rank", "Bloodsauce Dungeon Toppin (Mushroom)"
-    "Bloodsauce Dungeon Toppin (Cheese)", "Bloodsauce Dungeon Toppin (Tomato)", "Bloodsauce Dungeon Toppin (Sausage)" "Bloodsauce Dungeon Toppin (Pineapple)"
+    bloodsauce_dungeon_locs = get_location_names_with_ids(["Bloodsauce Dungeon Complete", "Bloodsauce Dungeon Toppin (Mushroom)",
+    "Bloodsauce Dungeon Toppin (Cheese)", "Bloodsauce Dungeon Toppin (Tomato)", "Bloodsauce Dungeon Toppin (Sausage)", "Bloodsauce Dungeon Toppin (Pineapple)",
     "Bloodsauce Dungeon Secret 1", "Bloodsauce Dungeon Secret 2", "Bloodsauce Dungeon Secret 3", "Bloodsauce Dungeon Secret 4", "Bloodsauce Dungeon Secret 5","Bloodsauce Dungeon Secret 6"])
     bloodsauce_dungeon.add_locations(bloodsauce_dungeon_locs, SAGELocation)
 
